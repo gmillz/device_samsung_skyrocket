@@ -22,6 +22,16 @@
 TARGET_BOARD_INFO_FILE ?= device/samsung/skyrocket/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := SGH-I727,skyrocket
 
+# Resoultion
+DEVICE_RESOLUTION := 480x800
+
+# FM radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_skyrocket_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660
