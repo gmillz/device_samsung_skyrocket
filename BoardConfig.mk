@@ -26,7 +26,7 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I727,skyrocket
 TARGET_KERNEL_CONFIG := cyanogenmod_skyrocket_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
 KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilt/$(HOST_OS)-x86/toolchain/linaro-4.7-12.10/bin/"
+KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/linaro-4.7-12.10/bin/"
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -35,6 +35,16 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 16776192
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 627048448
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 20044333056
 TARGET_USERIMAGES_USE_EXT4 := true
+
+# Resoultion
+DEVICE_RESOLUTION := 480x800
+
+# FM radio
+PRODUCT_PACKAGES += \
+    FM2 \
+    FMRecord \
+    libqcomfm_jni \
+    qcom.fmradio
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/skyrocket/bluetooth
