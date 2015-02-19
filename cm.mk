@@ -1,8 +1,5 @@
 $(call inherit-product, device/samsung/skyrocket/full_skyrocket.mk)
 
-# Inherit some common beanstalk stuff.
-$(call inherit-product, vendor/beanstalk/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/beanstalk/config/nfc_enhanced.mk)
 
