@@ -20,6 +20,10 @@ $(call inherit-product-if-exists, vendor/samsung/skyrocket/skyrocket-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# Ramdisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/ramdisk/init.qcom.usb.rc:root/init.qcom.usb.rc
+
 # Bluetooth
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/bcm4330B1.hcd:system/etc/firmware/bcm4330B1.hcd
