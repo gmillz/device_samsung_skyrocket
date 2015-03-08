@@ -25,8 +25,8 @@ TARGET_OTA_ASSERT_DEVICE := SGH-I727,skyrocket
 # Kernel
 TARGET_KERNEL_CONFIG := cyanogenmod_skyrocket_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8660-common
-KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
-KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/linaro-4.7-12.10/bin/"
+#KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabihf-
+#KERNEL_TOOLCHAIN := "$(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/linaro-4.7-12.10/bin/"
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
