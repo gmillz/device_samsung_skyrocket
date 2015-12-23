@@ -1,17 +1,17 @@
 [
   {
-    "repository": "bryan2894/android_device_samsung_msm8660-common",
+    "repository": "NoSpamDan/device_samsung_msm8660-common",
     "target_path": "device/samsung/msm8660-common",
-    "branch": "cm-13.0"
+    "branch": "c6"
   },
   {
-    "repository": "bryan2894/android_device_samsung_celox-common",
+    "repository": "NoSpamDan/device_samsung_celox-common",
     "target_path": "device/samsung/celox-common",
-    "branch": "cm-13.0"
+    "branch": "c6"
   },
   {
-    "repository": "bryan2894/android_kernel_samsung_msm8660-common",
+    "repository": "NoSpamDan/kernel_samsung_msm8660-common",
     "target_path": "kernel/samsung/msm8660-common",
-    "branch": "cm-13.0"
+    "branch": "c6"
   }
 ]
