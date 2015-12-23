@@ -1,0 +1,4 @@
+add_lunch_combo candy_skyrocket-user
+add_lunch_combo candy_skyrocket-userdebug
+add_lunch_combo candy_skyrocket-eng
+
